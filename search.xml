@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>2022—2023生活实录</title>
-    <url>/2023/04/16/2022-2023%E8%AE%B0%E5%BD%95/</url>
+    <url>/blog/2023/04/16/2022-2023%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<p>​		<strong>2022年对我来说可以说是不平凡的一年</strong></p>
 <h2 id="实习"><a href="#实习" class="headerlink" title="实习"></a>实习</h2><p>​		2022年上半年，我大三下学期，去青州北关初中进行了为期四个月的教育见习与实习。</p>
 <p>​		这次经历收获颇丰，感受也颇多，是我第一次走上讲台正式教课，虽说是实习，但实际教学任务还是挺繁重的，由于实习学校比较缺老师，所以刚来到校长就语重心长地和我们实习教师说“我知道你们每个人所学专业有语文、历史、化学什么的，但是咱学校很缺老师，你们来到这里，可能除了负责本学科教学以外，还会任教一些其他学科”😌，其实我早预料到的，果然我除信息技术外还教数学😂，负责的是七年级五班数学与整个八年级的信息技术。</p>
@@ -446,7 +446,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>hexo-redefine主题的说说版块、音乐插件与评论系统设置</title>
-    <url>/2023/04/02/hexo-redefine%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AF%B4%E8%AF%B4%E7%89%88%E5%9D%97%E3%80%81%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</url>
+    <url>/blog/2023/04/02/hexo-redefine%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AF%B4%E8%AF%B4%E7%89%88%E5%9D%97%E3%80%81%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<script defer src="/_vercel/insights/script.js"></script>
 
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​		针对我安装或者配置时遇到的困难分享一下，大家如果有遇到其他的问题，可以评论区讨论一下或者电子邮件联系，希望能帮到各位。</p>
@@ -898,7 +898,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>Flask项目部署后，网站访问速度很慢</title>
-    <url>/2023/04/14/flask%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%90%8E%EF%BC%8C%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E5%BE%88%E6%85%A2/</url>
+    <url>/blog/2023/04/14/flask%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%90%8E%EF%BC%8C%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6%E5%BE%88%E6%85%A2/</url>
     <content><![CDATA[<p><strong>在使用阿里云服务器部署完flask项目后，实际访问网站发现网站加载速度慢</strong></p>
 <h4 id="问题分析："><a href="#问题分析：" class="headerlink" title="问题分析："></a><strong>问题分析：</strong></h4><p>打开开发者工具-网络，发现<strong>echarts文件及其3D库加载时间过长</strong>，页面空白时间长，用户等待时间长，如下图</p>
 <p><img  
@@ -928,7 +928,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>hexo初始操作</title>
-    <url>/2023/04/01/hexo%E5%88%9D%E5%A7%8B%E6%93%8D%E4%BD%9C/</url>
+    <url>/blog/2023/04/01/hexo%E5%88%9D%E5%A7%8B%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
 
@@ -946,7 +946,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>Picgo插件--上传图片至多吉云</title>
-    <url>/2023/04/21/Picgo%E6%8F%92%E4%BB%B6-%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E5%A4%9A%E5%90%89%E4%BA%91/</url>
+    <url>/blog/2023/04/21/Picgo%E6%8F%92%E4%BB%B6-%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E5%A4%9A%E5%90%89%E4%BA%91/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​		由于博主之前用的阿里云作为图床，后来发现阿里云OSS存储费、流量流出费、还有CDN流出、回源乱七八糟的费用很杂。</p>
 <p>​		<strong>虽然OSS存储一年只需要9元</strong>，但OSS流量流出费为<strong>闲时0.25元&#x2F;GB，忙时0.5元&#x2F;GB</strong>，而且如果你想要使用CDN加速的话，实际费用大约就是OSS存储费+OSS流出费+CDN流出费+CDN会员费，如果到后面，博客访问量大了的话，费用叠加起来可能比较高。</p>
 <p>​		个人博客的话能省一分是一分(っ °Д °;)っ，况且<a class="link"   href="https://www.dogecloud.com/?iuid=6247" >多吉云 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>能白嫖，稳定性上也可以，为啥要付费呢😛</p>
@@ -1046,7 +1046,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>世界，你好！</title>
-    <url>/2023/04/03/%E4%B8%96%E7%95%8C%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%81/</url>
+    <url>/blog/2023/04/03/%E4%B8%96%E7%95%8C%EF%BC%8C%E4%BD%A0%E5%A5%BD%EF%BC%81/</url>
     <content><![CDATA[<p>&#x3D;&#x3D;这是我使用Hexo撰写的第一篇文章&#x3D;&#x3D;，一切从这里开始。</p>
 <p><img  
                      lazyload
@@ -1121,7 +1121,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>使用python爬虫爬取链家潍坊市二手房项目</title>
-    <url>/2023/04/06/%E4%BD%BF%E7%94%A8python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E9%93%BE%E5%AE%B6%E6%BD%8D%E5%9D%8A%E5%B8%82%E4%BA%8C%E6%89%8B%E6%88%BF%E9%A1%B9%E7%9B%AE/</url>
+    <url>/blog/2023/04/06/%E4%BD%BF%E7%94%A8python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E9%93%BE%E5%AE%B6%E6%BD%8D%E5%9D%8A%E5%B8%82%E4%BA%8C%E6%89%8B%E6%88%BF%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<h3 id="1、需求分析"><a href="#1、需求分析" class="headerlink" title="1、需求分析"></a><strong>1、需求分析</strong></h3><p>需要将潍坊市各县市区页面所展示的二手房信息按要求爬取下来，同时保存到本地。</p>
 <h3 id="2、流程设计"><a href="#2、流程设计" class="headerlink" title="2、流程设计"></a><strong>2、流程设计</strong></h3><ul>
 <li><em>明确目标网站URL（ <a class="link"   href="https://wf.lianjia.com/" >https://wf.lianjia.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> ）</em></li>
@@ -1204,7 +1204,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>博客音乐歌单更新记录</title>
-    <url>/2023/04/12/%E5%8D%9A%E5%AE%A2%E9%9F%B3%E4%B9%90%E6%AD%8C%E5%8D%95/</url>
+    <url>/blog/2023/04/12/%E5%8D%9A%E5%AE%A2%E9%9F%B3%E4%B9%90%E6%AD%8C%E5%8D%95/</url>
     <content><![CDATA[<p>​	网易云链接能保持较长时间，但对于VIP与付费歌曲还不稳定，QQ音乐与酷狗音乐的外链往往在一段时间之后会被禁止访问（forbidden）</p>
 <blockquote>
 <p>如果遇到博客音乐播放器中音乐失效或无法播放，请在文章下面留言！</p>
@@ -1273,7 +1273,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>数据挖掘学习记录（一）：科学计算库numpy</title>
-    <url>/2023/04/29/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93numpy/</url>
+    <url>/blog/2023/04/29/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93numpy/</url>
     <content><![CDATA[<h3 id="科学计算库Numpy"><a href="#科学计算库Numpy" class="headerlink" title="科学计算库Numpy"></a>科学计算库Numpy</h3><p>​		在python数据科学领域，包括数据分析、数据可视化、机器学习等等方面，Numpy是用得最广泛的工具包之一，基本涉及到数据计算、转换、清洗等等任务都能看到他的影子。</p>
 <p>​		在机器学习、深度学习中，常常用到矩阵计算，而包含<strong>多个特征的数据往往都可以转换为矩阵</strong>：<strong>行是每一条样本数据，列就是其每个字段的特征</strong>。相较于传统的循环列表相乘，Numpy在矩阵计算上非常高效，可以节省大量运行时间，接下来学习Numpy的核心模块与常用函数用法</p>
 <h3 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h3><p>​		Anaconda往往都默认安装了Numpy，如果用的是pip,就<strong>pip install numpy</strong>安装一下，安装完后，导入到运行环境中，为了方便，不要忘了<strong>给numpy起一个别名</strong> <code>import numpy as np</code></p>
@@ -1534,7 +1534,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>数据挖掘学习记录（二）：数据分析处理库Pandas</title>
-    <url>/2023/05/03/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%A4%84%E7%90%86%E5%BA%93Pandas/</url>
+    <url>/blog/2023/05/03/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%A4%84%E7%90%86%E5%BA%93Pandas/</url>
     <content><![CDATA[<h3 id="数据分析处理库Pandas"><a href="#数据分析处理库Pandas" class="headerlink" title="数据分析处理库Pandas"></a>数据分析处理库Pandas</h3><p>Pandas工具包是专门用作数据处理与分析的，其底层计算其实都是由Numpy来完成的，再把复杂的操作全部封装起来，使用起来十分高效，使得使用者可以更专注于数据处理与分析。在数据科学领域，无论哪个方向都是跟数据打交道，所以Pandas非常实用，本文章主要介绍Pandas的核心数据处理操作，并通过实际数据集来演示如何进行数据处理与分析任务。</p>
 <h3 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h3><p>利用Pandas做数据预处理，那必然先要导入相关库。</p>
 <p><code>import pandas as pd</code></p>
@@ -1956,7 +1956,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>深度学习概念辨析——Epoch、Batch、Iteration</title>
-    <url>/2023/04/05/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%E2%80%94%E2%80%94Epoch%E3%80%81Batch%E3%80%81Iteration/</url>
+    <url>/blog/2023/04/05/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%E2%80%94%E2%80%94Epoch%E3%80%81Batch%E3%80%81Iteration/</url>
     <content><![CDATA[<blockquote>
 <p>本文转载自简书<a class="link"   href="https://www.jianshu.com/p/22c50ded4cf7" >https://www.jianshu.com/p/22c50ded4cf7 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 </blockquote>
@@ -2043,7 +2043,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>概念辨析：偏导数、方向导数及梯度</title>
-    <url>/2023/05/04/%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%EF%BC%9A%E5%81%8F%E5%AF%BC%E6%95%B0%E3%80%81%E6%96%B9%E5%90%91%E5%AF%BC%E6%95%B0%E5%8F%8A%E6%A2%AF%E5%BA%A6/</url>
+    <url>/blog/2023/05/04/%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%EF%BC%9A%E5%81%8F%E5%AF%BC%E6%95%B0%E3%80%81%E6%96%B9%E5%90%91%E5%AF%BC%E6%95%B0%E5%8F%8A%E6%A2%AF%E5%BA%A6/</url>
     <content><![CDATA[<p>​		<strong>导数是一元函数的变化率（斜率）</strong>。导数也是函数，是函数的变化率与位置的关系。</p>
 <p>如果是多元函数呢？</p>
 <h3 id="偏导数"><a href="#偏导数" class="headerlink" title="偏导数"></a>偏导数</h3><p>偏导数是针对多变量函数而言的，它是将多变量函数退化成一元函数分别求各自导数，<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.009ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 888 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></svg></mjx-container>元函数有<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.009ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 888 683"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></svg></mjx-container>个偏导数。</p>
@@ -2098,7 +2098,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>深度学习记录（一）：在conda环境下安装PyTorch（CUDA版）</title>
-    <url>/2023/04/24/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%9C%A8conda%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85PyTorch%EF%BC%88CUDA%E7%89%88%EF%BC%89/</url>
+    <url>/blog/2023/04/24/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%9C%A8conda%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85PyTorch%EF%BC%88CUDA%E7%89%88%EF%BC%89/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="Pytorch是什么"><a href="#Pytorch是什么" class="headerlink" title="Pytorch是什么"></a>Pytorch是什么</h3><p>​		PyTorch 是一种用于构建深度学习模型的功能完备框架，是一种通常用于图像识别和语言处理等应用程序的机器学习。使用 Python 编写，因此对于大多数机器学习开发者而言，学习和使用起来相对简单。PyTorch 的独特之处在于，它完全支持 GPU，并且使用反向模式自动微分技术，因此可以动态修改计算图形。这使其成为快速实验和原型设计的常用选择。</p>
 <h3 id="为什么选择Pytorch"><a href="#为什么选择Pytorch" class="headerlink" title="为什么选择Pytorch"></a>为什么选择Pytorch</h3><ol>
 <li><strong><a class="link"   href="http://pytorch.org/" >Pytorch <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 有一个充满活力的大型社区，具有优秀的文档和教程</strong>。论坛十分活跃，并能给予帮助和支持，官方支持好，更新及时。</li>
@@ -2402,7 +2402,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>深度学习记录（二）：PyTorch使用技巧</title>
-    <url>/2023/04/27/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9APyTorch%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
+    <url>/blog/2023/04/27/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9APyTorch%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<p>​		在安装完PyTorch深度学习框架后，需要在编辑器具体来进行编程，这里选择<strong>Pycharm或Jupyter Notebook</strong>。</p>
 <p>​		<strong>Jupyter Notebook即其他的Notebook IDE的操作方法可以看我这篇博客<a class="link"   href="https://常子儒.xyz/2023/04/03/%E7%BD%91%E9%A1%B5%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8BNoteBook%E5%90%88%E9%9B%86/" >网页交互式编程NoteBook合集 - 阿儒小站  <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，他们的使用方法都大同小异，特点都是交互式编程。但是如果你的解释器是新创建的虚拟环境，注意用<code>conda list</code>查看虚拟环境中是否有Jupyter一系列软件包。</strong></p>
 <p>​		在Pycharm中可以创建普通的py文件也可以创建notebook文件，方法如下图：</p>
@@ -2477,7 +2477,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>网页交互式编程NoteBook合集</title>
-    <url>/2023/04/03/%E7%BD%91%E9%A1%B5%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8BNoteBook%E5%90%88%E9%9B%86/</url>
+    <url>/blog/2023/04/03/%E7%BD%91%E9%A1%B5%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8BNoteBook%E5%90%88%E9%9B%86/</url>
     <content><![CDATA[<p>​		利用python编程时常用的IDE软件像Pycharm和VScode等，体积较大，使用时电脑有时会卡顿，而且对于数据处理、可视化、机器学习及深度学习等使用不是特别方便，无法做到针对代码各部分做编辑调试。因而网页交互式IDE就成为了一种潮流，下面我将介绍一下各种网页交互式IDE</p>
 <h2 id="一、jupyter-notebook"><a href="#一、jupyter-notebook" class="headerlink" title="一、jupyter notebook"></a><strong>一、jupyter notebook</strong></h2><h3 id="1、安装"><a href="#1、安装" class="headerlink" title="1、安装"></a><strong>1、安装</strong></h3><p>安装jupyter notebook通常在Anaconda统一包管理软件中安装，使用conda方式；如果想单独安装，也可以选择pip方式</p>
 <table>
@@ -2642,7 +2642,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>NewBing申请及体验</title>
-    <url>/2023/05/12/NewBing%E7%94%B3%E8%AF%B7%E5%8F%8A%E4%BD%93%E9%AA%8C/</url>
+    <url>/blog/2023/05/12/NewBing%E7%94%B3%E8%AF%B7%E5%8F%8A%E4%BD%93%E9%AA%8C/</url>
     <content><![CDATA[<p>​		</p>
 <p>​		New Bing网站：<a class="link"   href="https://www.bing.com/new" >新必应 - 了解详细信息 (bing.com) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <h3 id="1、挂VPN"><a href="#1、挂VPN" class="headerlink" title="1、挂VPN"></a>1、挂VPN</h3><p><strong>节点路线最好选择美国</strong>，其他地区的节点应该也可以。</p>
@@ -2761,7 +2761,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>Python安装及配置环境变量</title>
-    <url>/2023/04/04/Python%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
+    <url>/blog/2023/04/04/Python%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</url>
     <content><![CDATA[<h4 id="1、打开官网"><a href="#1、打开官网" class="headerlink" title="1、打开官网"></a>1、打开官网</h4><ul>
 <li>进入官网<a class="link"   href="https://www.python.org/downloads/" >Python下载官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>，选择需要的Python，我选择的是Python3.9.10。</li>
 </ul>
@@ -2961,7 +2961,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>深度学习记录（三）：了解神经网络模型（结构、原理）</title>
-    <url>/2023/05/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%EF%BC%88%E7%BB%93%E6%9E%84%E3%80%81%E5%8E%9F%E7%90%86%EF%BC%89/</url>
+    <url>/blog/2023/05/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%EF%BC%88%E7%BB%93%E6%9E%84%E3%80%81%E5%8E%9F%E7%90%86%EF%BC%89/</url>
     <content><![CDATA[<p>​		神经网络</p>
 <p>听到神经网络，总是被各种各样的称呼迷惑半天，什么CNN、RNN、GAN、NN等等，下面准备从各个神经网络入手，了解他们的<strong>网络结构及工作原理</strong>。</p>
 <h3 id="先验知识"><a href="#先验知识" class="headerlink" title="先验知识"></a>先验知识</h3><h4 id="赫布型学习"><a href="#赫布型学习" class="headerlink" title="赫布型学习"></a>赫布型学习</h4><p>1949年，心理学家唐纳德·赫布在《The Organization of Behavior》论文中描述了神经元学习法则，这是一个神经科学理论，解释了学习过程中脑神经元发生的变化，描述了突触可塑性原理，即<em>突触前神经元向突触后神经元的持续重复的刺激，可以导致突触传递效能的增加。</em></p>
@@ -3009,7 +3009,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>深度学习记录（四）：YOLOv5 7.0实战</title>
-    <url>/2023/05/13/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9AYOLOv5%207.0%E5%AE%9E%E6%88%98/</url>
+    <url>/blog/2023/05/13/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9AYOLOv5%207.0%E5%AE%9E%E6%88%98/</url>
     <content><![CDATA[<p>​		官方更新了最新的YOLOv5 7.0版本，体验一下</p>
 <h3 id="YOLOv5环境安装"><a href="#YOLOv5环境安装" class="headerlink" title="YOLOv5环境安装"></a>YOLOv5环境安装</h3><h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><p><strong>anaconda</strong></p>
 <h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>过程请见深度学习记录（一）：PyTorch安装</p>
@@ -3598,7 +3598,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>hexo博客迁移</title>
-    <url>/2023/06/21/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</url>
+    <url>/blog/2023/06/21/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</url>
     <content><![CDATA[<p>由于新换了电脑，所以需要将原来本地hexo博客内容迁移到新的设备上。</p>
 <p>我直接将原本的博客文件夹打包解压到了新电脑上了，目录结构如下：</p>
 <img  
@@ -3674,7 +3674,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>nrm模块错误：ERR_Require_ESM</title>
-    <url>/2023/06/18/nrm%E6%A8%A1%E5%9D%97%E9%94%99%E8%AF%AF%EF%BC%9AERR-Require-ESM/</url>
+    <url>/blog/2023/06/18/nrm%E6%A8%A1%E5%9D%97%E9%94%99%E8%AF%AF%EF%BC%9AERR-Require-ESM/</url>
     <content><![CDATA[<p>​	nrm(npm registry manager)是npm源管理器，能够方便快捷切换npm镜像源。</p>
 <p>在使用<code>npm install -g nrm</code>安装nrm后，使用npm ls命令查看源信息的时候出现报错信息，</p>
 <img  
@@ -3714,7 +3714,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>SSL证书申请与更换</title>
-    <url>/2023/07/05/SSL%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7%E4%B8%8E%E6%9B%B4%E6%8D%A2/</url>
+    <url>/blog/2023/07/05/SSL%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7%E4%B8%8E%E6%9B%B4%E6%8D%A2/</url>
     <content><![CDATA[<p>如果想让自己网站数据传输更安全，可以将网站HTTP协议跳转为HTTPS协议，这需要我们做的就是申请一张SSL证书。</p>
 <p>证书文件申请后会给我们一份CSR（证书请求文件）与私钥，<u><strong>注意妥善保存私钥！！</strong></u>，而申请验证通过后会给我们一份证书crt文件，这个文件用于为服务器安装证书。</p>
 <p>所以要保存的有CSR、<strong>私钥、证书文件</strong>！（私钥丢失后一般不可找回）</p>
@@ -3914,7 +3914,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>第四届华数杯数学建模竞赛C题思路、过程实现与最终论文</title>
-    <url>/2023/08/20/%E7%AC%AC%E5%9B%9B%E5%B1%8A%E5%8D%8E%E6%95%B0%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BC%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E8%BF%87%E7%A8%8B%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</url>
+    <url>/blog/2023/08/20/%E7%AC%AC%E5%9B%9B%E5%B1%8A%E5%8D%8E%E6%95%B0%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BC%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E8%BF%87%E7%A8%8B%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</url>
     <content><![CDATA[<p>​	这次第四届华数杯比赛时间是2023年8月3日（周四）18:00至8月6日（周日）20:00，比赛组别共分为<strong>研究生组</strong>、<strong>本科生组</strong>和<strong>专科生组</strong>，这次竞赛题目分为<strong>A、B、C三个题目</strong>，主题分别为：</p>
 <ul>
 <li><strong>A 题 隔热材料的结构优化控制研究</strong></li>
@@ -4101,7 +4101,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>数据挖掘学习记录（三）：数据可视化库matplotlib</title>
-    <url>/2023/05/20/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BA%93matplotlib/</url>
+    <url>/blog/2023/05/20/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BA%93matplotlib/</url>
     <content><![CDATA[<p>​	matplotlib</p>
 ]]></content>
       <categories>
@@ -4115,7 +4115,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>统计学习方法记录（一）：概述</title>
-    <url>/2023/10/10/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E6%A6%82%E8%BF%B0/</url>
+    <url>/blog/2023/10/10/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<p>​	本部分根据李航的统计方法学习（第二版）进行学习记录。</p>
 ]]></content>
       <categories>
@@ -4128,7 +4128,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>第二十届华为杯数学建模竞赛E题思路、实现过程与最终论文</title>
-    <url>/2023/12/14/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%8A%E5%8D%8E%E4%B8%BA%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BE%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</url>
+    <url>/blog/2023/12/14/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%8A%E5%8D%8E%E4%B8%BA%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BE%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</url>
     <content><![CDATA[<p>​	第二十届华为杯数学建模竞赛比赛时间是2023年9月22日上午8：00至2023年9月26日12：00，具体日程表如下图：</p>
 <img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.xn--l3q92w0lc.xyz/2023/12/14/c9f6b690ec5d0bdc400c6ba7888e7788.png" alt="image-20231214203757846" style="zoom:67%;">
 
@@ -4179,7 +4179,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>温度监控软件——CoreTemp</title>
-    <url>/2023/12/22/%E6%B8%A9%E5%BA%A6%E7%9B%91%E6%8E%A7%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94CoreTemp/</url>
+    <url>/blog/2023/12/22/%E6%B8%A9%E5%BA%A6%E7%9B%91%E6%8E%A7%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94CoreTemp/</url>
     <content><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>​	最近总是感觉电脑温度比较高，鲁大师显示一直是40度，也就没管，直到后面电脑用的发烫了，鲁大师还显示40度，就感觉不太对劲，打开鲁大师界面一看，好家伙，需要升级会员才能看电脑温度，不光如此，CPU使用率、GPU使用率和内存占用率也一直不动。</p>
 <p>​	所以我就打算换一个电脑温度、内存监控软件，就找到了这个简洁小巧的软件——Core Temp</p>
 <p>​	软件官网<a class="link" href="https://www.alcpu.com/CoreTemp/">Core Temp <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -4217,7 +4217,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>小巧的内存清理软件——MemReduct</title>
-    <url>/2023/12/25/%E5%B0%8F%E5%B7%A7%E7%9A%84%E5%86%85%E5%AD%98%E6%B8%85%E7%90%86%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94MemReduct/</url>
+    <url>/blog/2023/12/25/%E5%B0%8F%E5%B7%A7%E7%9A%84%E5%86%85%E5%AD%98%E6%B8%85%E7%90%86%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94MemReduct/</url>
     <content><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Mem Reduct是一个大小仅有400KB的，无广告且免费的，可以实现一键清理电脑内存的小软件。</p>
 <p>目前这个软件最后更新时间为2022.01.25，最新版本为v3.4</p>
 <p>GitHub项目地址<a class="link" href="https://github.com/henrypp/memreduct">MemReduct <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
@@ -4240,7 +4240,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>蓝桥杯学习记录（1）</title>
-    <url>/2024/01/13/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89/</url>
+    <url>/blog/2024/01/13/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89/</url>
     <content><![CDATA[<h4 id="蓝桥杯python组知识点大纲"><a href="#蓝桥杯python组知识点大纲" class="headerlink" title="蓝桥杯python组知识点大纲"></a>蓝桥杯python组知识点大纲</h4><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.xn--l3q92w0lc.xyz/2024/01/13/e7159d8da8b73c1557ad47a9191f7b54.png" alt="image-20240113131949218" style="zoom: 80%;">
 
 
@@ -4265,7 +4265,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>蓝桥杯学习记录（2）——算法简述</title>
-    <url>/2024/01/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%882%EF%BC%89%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95%E7%AE%80%E8%BF%B0/</url>
+    <url>/blog/2024/01/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%882%EF%BC%89%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95%E7%AE%80%E8%BF%B0/</url>
     <content><![CDATA[<h3 id="常考的算法："><a href="#常考的算法：" class="headerlink" title="常考的算法："></a><strong>常考的算法</strong>：</h3><p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/05/96baa42f03ac37ffc71aa94e30e80692.png" alt="image-20240205113759867"></p>
 <h4 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h4><p>动态规划是一种解决多阶段决策问题的算法思想，常用于求解最优化问题。它通过把原问题分解为若干个子问题的方式，将复杂问题简化成一系列相对简单的子问题，然后逐步解决这些子问题，并将它们的解组合起来得到原问题的最优解。</p>
 <h4 id="贪心算法"><a href="#贪心算法" class="headerlink" title="贪心算法"></a>贪心算法</h4><p>贪心算法是一种常见的算法思想，通常用于解决优化问题，它总是在每一步选择中，选择当前状态下最优的解决方案，从而希望最终能够达到全局最优解。</p>
@@ -4287,7 +4287,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>蓝桥杯学习记录（3）——语言基础</title>
-    <url>/2024/02/02/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%883%EF%BC%89%E2%80%94%E2%80%94%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</url>
+    <url>/blog/2024/02/02/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%883%EF%BC%89%E2%80%94%E2%80%94%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h3 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h3><h4 id="input"><a href="#input" class="headerlink" title="input"></a>input</h4><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">input</span>(【提示文字】)<span class="comment">#输入变量均为str字符串</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#如果需要整数、浮点输入，需要做强制转换</span></span><br><span class="line">a = <span class="built_in">int</span>(<span class="built_in">input</span>()) <span class="keyword">or</span> <span class="built_in">float</span>(<span class="built_in">input</span>())</span><br><span class="line"></span><br><span class="line"><span class="comment">#一行多个输入</span></span><br><span class="line"><span class="built_in">map</span>(t,<span class="built_in">input</span>().split()) <span class="comment">#t为int/float等等强制转换类型，没有可以不填</span></span><br></pre></td></tr></table></figure></div>
 
 <h4 id="print"><a href="#print" class="headerlink" title="print"></a>print</h4><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(obj,sep=<span class="string">''</span>,end=<span class="string">'\n'</span>)</span><br><span class="line"><span class="comment">#如果要更改分隔符，就改sep</span></span><br><span class="line"><span class="comment">#如果要改末尾，就改end换行为其他内容或转义字符</span></span><br></pre></td></tr></table></figure></div>
@@ -4657,7 +4657,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>数学概念</title>
-    <url>/2024/02/05/%E6%95%B0%E5%AD%A6%E6%A6%82%E5%BF%B5/</url>
+    <url>/blog/2024/02/05/%E6%95%B0%E5%AD%A6%E6%A6%82%E5%BF%B5/</url>
     <content><![CDATA[<p>​	越学习计算机越感觉要有一定数学知识才能编写可用的算法，因此，单独记录一下常用的数学基础概念、公式、推理等。</p>
 <h3 id="素数（质数）"><a href="#素数（质数）" class="headerlink" title="素数（质数）"></a>素数（质数）</h3><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><p><strong>在大于1的自然数中，除了1和它本身以外不再有其他因数的自然数</strong>。</p>
 <h4 id="素数生成算法"><a href="#素数生成算法" class="headerlink" title="素数生成算法"></a>素数生成算法</h4><p><strong>1、埃拉托斯特尼筛法</strong></p>
@@ -4778,7 +4778,7 @@ var player = new DogePlayer({
   </entry>
   <entry>
     <title>阿里云ECS搭建AList个人云盘</title>
-    <url>/2024/02/14/%E9%98%BF%E9%87%8C%E4%BA%91ECS%E6%90%AD%E5%BB%BAAList%E4%B8%AA%E4%BA%BA%E4%BA%91%E7%9B%98/</url>
+    <url>/blog/2024/02/14/%E9%98%BF%E9%87%8C%E4%BA%91ECS%E6%90%AD%E5%BB%BAAList%E4%B8%AA%E4%BA%BA%E4%BA%91%E7%9B%98/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前在逛别人博客的时候，看到了在博客中插入一些个人网盘用于存放个人常用且重要的文件，想着自己之前还有个云服务器可以拿来部署一下，练练手</p>
 <p>目前市面上，个人网盘种类繁多。</p>
 <p>在这里列举一下我看到感觉还可以的个人云盘：</p>
