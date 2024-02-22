@@ -4897,4 +4897,104 @@ var player = new DogePlayer({
         <tag>建站</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Hugo项目部署GithubPages</title>
+    <url>/blog/2024/02/21/Hugo%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2GithubPages/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近换了个域名，寻思想把博客重构下，就想到把主域名做网页导航站，博客域名设为主域名的下级目录。</p>
+<p>项目部署还是优先考虑的GithubPages，因为服务器时刻都有开销，负担不了。</p>
+<p>因此根据部署Hexo博客的经验，选个静态页面的导航站。其中看到了一个比较不错的项目——<a class="link" href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>这个项目是一个网址导航网站，前端基于Bootstrap前端框架开发，有多个版本可以构建网站。其中以Hugo框架搭建的WebStack功能、UI较丰富，说明文档比较详细。Hugo版项目地址<a class="link" href="https://github.com/shenweiyan/WebStack-Hugo">https://github.com/shenweiyan/WebStack-Hugo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h2 id="本地搭建"><a href="#本地搭建" class="headerlink" title="本地搭建"></a>本地搭建</h2><h3 id="下载Hugo"><a href="#下载Hugo" class="headerlink" title="下载Hugo"></a>下载Hugo</h3><p>Hugo下载地址<a class="link" href="https://github.com/gohugoio/hugo/releases%EF%BC%8C%E5%B0%BD%E9%87%8F%E9%80%89%E6%AF%94%E8%BE%83%E6%96%B0%E7%9A%84%E7%89%88%E6%9C%AC%EF%BC%8CWindows%E7%94%A8%E6%88%B7%E9%80%89%E6%8B%A9%E4%BB%A5%E4%B8%8B%EF%BC%9A![image-20240222182359982](https://duojiyun-storage.xn--l3q92w0lc.xyz/2024/02/22/1a55d07d90586bd0b595008211880afb.png)">https://github.com/gohugoio/hugo/releases，尽量选比较新的版本，Windows用户选择以下：![image-20240222182359982](https://duojiyun-storage.xn--l3q92w0lc.xyz/2024/02/22/1a55d07d90586bd0b595008211880afb.png) <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h4 id="解压"><a href="#解压" class="headerlink" title="解压"></a><strong>解压</strong></h4><p>新建一个文件夹，如<code>F:\WebStack</code>，解压到该目录下。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/80069e25d4d7278479e1dfccb1f59e59.png" alt="image-20240222182556175"></p>
+<h4 id="检查Hugo是否安装成功"><a href="#检查Hugo是否安装成功" class="headerlink" title="检查Hugo是否安装成功"></a><strong>检查Hugo是否安装成功</strong></h4><p>打开命令行，输入<code>cd F:\WebStack</code>，跳转到Hugo目录下。</p>
+<p>在命令行输入<code>hugo.exe version</code>，运行出现以下内容，则代表安装成功。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/fe7027b93abfed6f7688af8e263839be.png" alt="image-20240222182909056"></p>
+<h3 id="下载WebStack-Hugo"><a href="#下载WebStack-Hugo" class="headerlink" title="下载WebStack-Hugo"></a>下载WebStack-Hugo</h3><p>浏览器打开 <a class="link" href="https://github.com/shenweiyan/WebStack-Hugo%EF%BC%8C%E7%82%B9%E5%87%BB">https://github.com/shenweiyan/WebStack-Hugo，点击 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> Code 下的 **”Download ZIP”**，把 WebStack-hugo-main.zip 下载到刚才 hugo 解压缩的目录（<code>F:\WebStack</code>）。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/dbac7cb637b8fbffe388abb8db0a6355.png"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/90d3bba9651331165c4c6256201fe97f.png" alt="image-20240222183201716"></p>
+<h4 id="解压、重命名"><a href="#解压、重命名" class="headerlink" title="解压、重命名"></a><strong>解压、重命名</strong></h4><p>把 <strong>WebStack-Hugo-main.zip</strong> 解压到当前目录。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/6841d45e4df654947ada03cf512ebdde.png" alt="image-20240222183346942"></p>
+<h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><p>首先，进入 <code>F:\WebStack</code> 目录；</p>
+<p>然后，创建一个 <strong>themes</strong> 的文件夹；</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/df728bdc93981b2bb99f117eadac069f.png" alt="image-20240222183428547"></p>
+<p>接着，把解压后的 WebStack-Hugo 整个文件夹移动到 themes 中。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/5128958df0bd79b1c44e7a2608706a66.png" alt="image-20240222183459532"></p>
+<p>将 <code>F:\WebStack\themes\WebStack-Hugo\exampleSite</code> 目录下的所有文件复制到 hugo 站点根目录（即 <code>F:\WebStack</code>）。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/b271a98f26e548b83a526a8767b1d4de.png" alt="image-20240222183616341"></p>
+<h3 id="本地启动"><a href="#本地启动" class="headerlink" title="本地启动"></a>本地启动</h3><p>在<code>F:\WebStack</code>目录下打开命令行，输入命令<code>hugo server</code>，启动本地Web服务器，运行Hugo站点。Hugo框架会构建站点内容到内存中并在检测到文件更改后重新渲染，方便我们在开发环境实时预览对站点所做的更改。</p>
+<p><em><strong>这点上要比Hexo要好，Hugo修改博客或网站内容后，本地浏览的站点会快速自动渲染一遍，不需要频繁关闭启动站点。</strong></em></p>
+<img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.xn--l3q92w0lc.xyz/2024/02/22/b251b5788e27c90fcb218f47515ee25c.png" alt="image-20240222184507945" style="zoom:80%;">
+
+<p>最后，在浏览器中打开 <a href="http://127.0.0.1:1313/"><strong>http://127.0.0.1:1313/</strong></a>，即可看到生成的站点。</p>
+<img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.xn--l3q92w0lc.xyz/2024/02/22/6320a720251eca770f5dc6ab2a2019a5.png" alt="image-20240222184631165" style="zoom: 80%;">
+
+<blockquote>
+<p><strong>如果在Linux下安装</strong>：</p>
+<p>安装完本 WebStack-Hugo 主题后，将 exampleSite 目录下的文件复制到 hugo 站点根目录，根据需要把 config.toml 的一些信息改成自己的，导航的网址信息可通过 data 目录下 webstack.yml 修改。</p>
+<p>具体执行步骤如下：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">mkdir /home/shenweiyan/mysite </span><br><span class="line">cd /home/shenweiyan/mysite</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 WebStack-Hugo 主题</span></span><br><span class="line">git clone https://github.com/shenweiyan/WebStack-Hugo.git themes/WebStack-Hugo</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">将 exampleSite 目录下的文件复制到 hugo 站点根目录</span></span><br><span class="line">cd /home/shenweiyan/mysite</span><br><span class="line">cp -r themes/WebStack-Hugo/exampleSite/* ./</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动 hugo 站点</span></span><br><span class="line">hugo server </span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">如果你知道你的公网 ip, 如下面的 132.76.230.31, 可以使用下面的方式执行 hugo server</span></span><br><span class="line">hugo server --baseUrl=132.76.230.31 --bind=0.0.0.0 </span><br></pre></td></tr></table></figure></div>
+
+<p>也可以参考 <a class="link" href="https://github.com/jetsung">@jetsung <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 在 <a class="link" href="https://github.com/shenweiyan/WebStack-Hugo/pull/15">pull 15 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 所用的方法安装部署：</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">创建项目</span></span><br><span class="line">mkdir navsites</span><br><span class="line">cd $_</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">初始化项目</span></span><br><span class="line">git init</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">将 WebStack-Hugo 源下载到 themes/WebStack-Hugo 文件夹</span></span><br><span class="line">git submodule add https://github.com/shenweiyan/WebStack-Hugo.git themes/WebStack-Hugo</span><br><span class="line">cp -r themes/WebStack-Hugo/exampleSite/* ./</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装 hugo</span></span><br><span class="line">go install github.com/gohugoio/hugo@latest</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">本地测试</span></span><br><span class="line">hugo server</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">生成 docs 文件夹，将并静态内容生成至此处</span></span><br><span class="line">hugo -D</span><br></pre></td></tr></table></figure></div>
+</blockquote>
+<h2 id="上传部署"><a href="#上传部署" class="headerlink" title="上传部署"></a>上传部署</h2><h3 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h3><p>在安装WebStack-Hugo项目后，需要按照自己的需要对项目配置文件做些修改。</p>
+<ul>
+<li><p><code>config.toml</code>的baseURl改成自己站点的网址，如<code>baseURL = "https://c200108.github.io"</code>，其余选项按照他的格式来。</p>
+</li>
+<li><p><code>data\webstack.yaml</code>是收藏网址目录，如果想增加或删减网站，更改这个文件</p>
+</li>
+<li><p><code>data\header.yaml</code>是表头的设置文件</p>
+</li>
+<li><p><code>data\friendlinks.yaml</code>是网页下面友情链接的设置文件</p>
+</li>
+</ul>
+<h3 id="GithubPages那点事"><a href="#GithubPages那点事" class="headerlink" title="GithubPages那点事"></a>GithubPages那点事</h3><p>GithubPages的个人网站一般为：<code>username.github.io</code>，可是如果一个人有好几个网站需要部署到Github怎么办，域名又该是什么。这一点GithubPages给出了解释。</p>
+<p>每个人或者组织<strong>只能设置一个个人站点</strong>，站点域名便是<code>username.github.io</code>，但是可以<strong>创建无限个项目站点</strong>，项目站点的域名形式为：<code>username.github.io/项目名</code>，如果你想<strong>创建第二个GithubPages网站可以选择创建项目站点</strong>。</p>
+<p>因此我选择将我原来的博客网站设为项目站点<a href="https://c200108.github.io/blog%EF%BC%8C%E7%8E%B0%E5%9C%A8%E6%96%B0%E5%BB%BA%E7%9A%84%E5%AF%BC%E8%88%AA%E7%AB%99%E8%AE%BE%E4%B8%BA%E4%B8%AA%E4%BA%BA%E7%AB%99%E7%82%B9https://c200108.github.io%E3%80%82">https://c200108.github.io/blog，现在新建的导航站设为个人站点https://c200108.github.io。</a></p>
+<p><strong>具体创建过程</strong>：</p>
+<p>1、新建存储库，填个项目名，勾选<code>add a readme file</code>，因为GithubPages设置要求新的存储库中必须有文件，不能为空库。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/83801a36c6e38951108a78b56b630e04.png" alt="image-20240222205201642"></p>
+<p>2、转到新建存储库的<code>Settings——Pages</code>，进行GithubPages的设置，最后保存。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/9467235d3715761f74e097cf7461e915.png" alt="image-20240222205501628"></p>
+<p>3、保存后，Github会自动部署站点，网站<code>c200108.github.io/display</code>会自动上线</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/6d805e4adfc46469f54c197f088cd374.png" alt="image-20240222210506535"></p>
+<p>4、这时候在display库中新建一个index.html，并把原来的README.md文件删除。演示一下站点是否正常运行。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/dfe9742e51e50bcf7196d9c015a9637e.png" alt="image-20240222210721131"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/951a295aec54f2d1c9c360f0dfd1315a.png" alt="image-20240222210911424"></p>
+<p>5、浏览器正常访问！</p>
+<h3 id="Hugo项目部署"><a href="#Hugo项目部署" class="headerlink" title="Hugo项目部署"></a>Hugo项目部署</h3><p>本地创建配置完Hugo项目后，在<code>F:\WebStack</code>目录的命令行输入<code>hugo -D</code>或<code>hugo</code>来生成名为public的hugo静态页面。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/41e8099fe26d7dbc3d8db6e3645d1957.png" alt="image-20240222211409381"></p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://duojiyun-storage.常子儒.xyz/2024/02/22/140dab7ca2059fb9db833b801ccea68f.png" alt="image-20240222211436017"></p>
+<p>生成的这个public文件夹就是要上传到Github的。</p>
+<p>这时需要进入public文件夹，在<code>F:\WebStack\public</code>目录下使用命令行</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git init    ##初始化仓库</span><br><span class="line">git remote add origin https://github.com/c200108/display.git    ##链接远程仓库，这个填你自己的仓库地址</span><br><span class="line">git add .</span><br><span class="line">git commit -m "first commit"</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure></div>
+
+<p>在此之后更新文章，使用hugo生成新的静态页面，并使用git push进行同步</p>
+<div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git status</span><br><span class="line">git commit -m "add blog post"</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="git问题"><a href="#git问题" class="headerlink" title="git问题"></a>git问题</h3><p>在我部署Github时，使用git遇到了一些问题，现汇总一下：</p>
+<h4 id="1、错误error-src-refspec-master-does-not-match-any-error-failed-to-push-some-refs-to"><a href="#1、错误error-src-refspec-master-does-not-match-any-error-failed-to-push-some-refs-to" class="headerlink" title="1、错误error: src refspec master does not match any. error: failed to push some refs to"></a><strong>1、错误error: src refspec master does not match any. error: failed to push some refs to</strong></h4><p>在一些老教程上，在最后一步push时，会用<code>git push -u origin master</code>，这就会出现上面错误，错误原因是github更新了，现在github的默认分支为main，<strong>master应该换成main</strong></p>
+<h4 id="2、-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…‘"><a href="#2、-rejected-master-＞-main-fetch-first-error-failed-to-push-some-refs-to-‘github-…‘" class="headerlink" title="2、[rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …‘"></a><strong>2、[rejected] master -＞ main (fetch first)error: failed to push some refs to ‘github …‘</strong></h4><p>在将已有项目提交到线上远程仓库时，报错该错误。该错误会出现在<code>git push -u origin main</code>之后。</p>
+<p>报错的原因是每个仓库都有一个分支，也可以理解为大仓库里的小仓库，我们只是跟线上远程仓库有了关联，但没有跟线上远程仓库的某个分支关联，所以我们没法提交。</p>
+<p>解决方法：首先，在终端输入<code>git pull --rebase origin main</code>，即可跟刚创建的线上远程仓库的默认分支main关联<br>这时再执行一下 <code>git push -u origin main</code>，即可将我们的项目文件上传到关联的线上远程文件中</p>
+<h4 id="3、git-rebase时出现冲突问题"><a href="#3、git-rebase时出现冲突问题" class="headerlink" title="3、git rebase时出现冲突问题"></a><strong>3、git rebase时出现冲突问题</strong></h4><p>如果按上面2中做了，但是出现了以下等等错误</p>
+<blockquote>
+<p>git rebase -i master<br>Auto-merging APP-META/docker-config/Dockerfile_testing<br>CONFLICT (content): Merge conflict in APP-META/docker-config/Dockerfile_testing<br>Auto-merging APP-META/docker-config/Dockerfile_staging<br>CONFLICT (content): Merge conflict in APP-META/docker-config/Dockerfile_staging<br>Auto-merging APP-META/docker-config/Dockerfile_production</p>
+</blockquote>
+<p>说明本地仓库与线上远程仓库存在差异，git rebase起冲突，主要是针对某几个文件的冲突，可以如下操作：</p>
+<p>1.先 git rebase –abort</p>
+<p>2.先 git status 查看一下状态，对有有冲突的文件，先修改一下，修改完之后，</p>
+<p>3.git rebase –continue</p>
+<p>4.git push -f origin main</p>
+<p>如果上述办法实在不行，可以将远程库克隆到本地，在本地将远程库中文件删除，再将本地需要上传的新项目直接push线上远程仓库。</p>
+]]></content>
+      <categories>
+        <category>hugo</category>
+      </categories>
+      <tags>
+        <tag>部署</tag>
+        <tag>版本控制</tag>
+      </tags>
+  </entry>
 </search>
