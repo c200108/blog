@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://c200108.github.io/blog/shuoshuo/index.html</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://c200108.github.io/blog/masonry/index.html</loc>
     
     <lastmod>2024-03-03</lastmod>
@@ -291,15 +300,6 @@
   
   <url>
     <loc>https://c200108.github.io/blog/2023/04/02/hexo-redefine%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AF%B4%E8%AF%B4%E7%89%88%E5%9D%97%E3%80%81%E9%9F%B3%E4%B9%90%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</loc>
-    
-    <lastmod>2023-08-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/shuoshuo/index.html</loc>
     
     <lastmod>2023-08-07</lastmod>
     
