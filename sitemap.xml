@@ -2,34 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://c200108.github.io/blog/2023/06/18/nrm%E6%A8%A1%E5%9D%97%E9%94%99%E8%AF%AF%EF%BC%9AERR-Require-ESM/</loc>
-    
-    <lastmod>2024-03-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/07/05/SSL%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7%E4%B8%8E%E6%9B%B4%E6%8D%A2/</loc>
-    
-    <lastmod>2024-03-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/05/12/NewBing%E7%94%B3%E8%AF%B7%E5%8F%8A%E4%BD%93%E9%AA%8C/</loc>
-    
-    <lastmod>2024-03-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2024/01/13/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89/</loc>
+    <loc>https://c200108.github.io/blog/2023/05/03/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%A4%84%E7%90%86%E5%BA%93Pandas/</loc>
     
     <lastmod>2024-03-03</lastmod>
     
@@ -47,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://c200108.github.io/blog/2024/03/03/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%884%EF%BC%89%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://c200108.github.io/blog/2024/01/13/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%881%EF%BC%89/</loc>
     
     <lastmod>2024-03-03</lastmod>
     
@@ -58,16 +31,124 @@
   <url>
     <loc>https://c200108.github.io/blog/2024/02/14/%E9%98%BF%E9%87%8C%E4%BA%91ECS%E6%90%AD%E5%BB%BAAList%E4%B8%AA%E4%BA%BA%E4%BA%91%E7%9B%98/</loc>
     
-    <lastmod>2024-02-28</lastmod>
+    <lastmod>2024-03-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://c200108.github.io/blog/2024/02/21/Hugo%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2GithubPages/</loc>
+    <loc>https://c200108.github.io/blog/2023/04/12/%E5%8D%9A%E5%AE%A2%E9%9F%B3%E4%B9%90%E6%AD%8C%E5%8D%95/</loc>
     
-    <lastmod>2024-02-22</lastmod>
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/12/14/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%8A%E5%8D%8E%E4%B8%BA%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BE%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/08/20/%E7%AC%AC%E5%9B%9B%E5%B1%8A%E5%8D%8E%E6%95%B0%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BC%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E8%BF%87%E7%A8%8B%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/05/04/%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%EF%BC%9A%E5%81%8F%E5%AF%BC%E6%95%B0%E3%80%81%E6%96%B9%E5%90%91%E5%AF%BC%E6%95%B0%E5%8F%8A%E6%A2%AF%E5%BA%A6/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2024/01/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%882%EF%BC%89%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95%E7%AE%80%E8%BF%B0/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2024/03/03/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%884%EF%BC%89%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/27/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9APyTorch%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/05/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%EF%BC%88%E7%BB%93%E6%9E%84%E3%80%81%E5%8E%9F%E7%90%86%EF%BC%89/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/05/13/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9AYOLOv5%207.0%E5%AE%9E%E6%88%98/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/24/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%9C%A8conda%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85PyTorch%EF%BC%88CUDA%E7%89%88%EF%BC%89/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/06/%E4%BD%BF%E7%94%A8python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E9%93%BE%E5%AE%B6%E6%BD%8D%E5%9D%8A%E5%B8%82%E4%BA%8C%E6%89%8B%E6%88%BF%E9%A1%B9%E7%9B%AE/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/05/20/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BA%93matplotlib/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/29/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93numpy/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +157,106 @@
   <url>
     <loc>https://c200108.github.io/blog/2024/02/05/%E6%95%B0%E5%AD%A6%E6%A6%82%E5%BF%B5/</loc>
     
-    <lastmod>2024-02-11</lastmod>
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/10/10/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E6%A6%82%E8%BF%B0/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/12/22/%E6%B8%A9%E5%BA%A6%E7%9B%91%E6%8E%A7%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94CoreTemp/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/12/25/%E5%B0%8F%E5%B7%A7%E7%9A%84%E5%86%85%E5%AD%98%E6%B8%85%E7%90%86%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94MemReduct/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/06/21/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2024/02/21/Hugo%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2GithubPages/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/05/12/NewBing%E7%94%B3%E8%AF%B7%E5%8F%8A%E4%BD%93%E9%AA%8C/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/21/Picgo%E6%8F%92%E4%BB%B6-%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E5%A4%9A%E5%90%89%E4%BA%91/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/04/Python%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/07/05/SSL%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7%E4%B8%8E%E6%9B%B4%E6%8D%A2/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/04/16/2022-2023%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://c200108.github.io/blog/2023/06/18/nrm%E6%A8%A1%E5%9D%97%E9%94%99%E8%AF%AF%EF%BC%9AERR-Require-ESM/</loc>
+    
+    <lastmod>2024-03-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -92,108 +272,9 @@
   </url>
   
   <url>
-    <loc>https://c200108.github.io/blog/2024/01/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%882%EF%BC%89%E2%80%94%E2%80%94%E7%AE%97%E6%B3%95%E7%AE%80%E8%BF%B0/</loc>
-    
-    <lastmod>2024-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/12/14/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%8A%E5%8D%8E%E4%B8%BA%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BE%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</loc>
-    
-    <lastmod>2024-01-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/08/20/%E7%AC%AC%E5%9B%9B%E5%B1%8A%E5%8D%8E%E6%95%B0%E6%9D%AF%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%AB%9E%E8%B5%9BC%E9%A2%98%E6%80%9D%E8%B7%AF%E3%80%81%E8%BF%87%E7%A8%8B%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%9C%80%E7%BB%88%E8%AE%BA%E6%96%87/</loc>
-    
-    <lastmod>2024-01-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/12/25/%E5%B0%8F%E5%B7%A7%E7%9A%84%E5%86%85%E5%AD%98%E6%B8%85%E7%90%86%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94MemReduct/</loc>
-    
-    <lastmod>2023-12-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/12/22/%E6%B8%A9%E5%BA%A6%E7%9B%91%E6%8E%A7%E8%BD%AF%E4%BB%B6%E2%80%94%E2%80%94CoreTemp/</loc>
-    
-    <lastmod>2023-12-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://c200108.github.io/blog/about/index.html</loc>
     
     <lastmod>2023-12-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/12/%E5%8D%9A%E5%AE%A2%E9%9F%B3%E4%B9%90%E6%AD%8C%E5%8D%95/</loc>
-    
-    <lastmod>2023-11-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/05/20/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BA%93matplotlib/</loc>
-    
-    <lastmod>2023-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/10/10/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E6%A6%82%E8%BF%B0/</loc>
-    
-    <lastmod>2023-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/29/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%BA%93numpy/</loc>
-    
-    <lastmod>2023-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/05/03/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%A4%84%E7%90%86%E5%BA%93Pandas/</loc>
-    
-    <lastmod>2023-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/05/13/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E5%9B%9B%EF%BC%89%EF%BC%9AYOLOv5%207.0%E5%AE%9E%E6%88%98/</loc>
-    
-    <lastmod>2023-10-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -218,69 +299,6 @@
   </url>
   
   <url>
-    <loc>https://c200108.github.io/blog/2023/06/21/hexo%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB/</loc>
-    
-    <lastmod>2023-07-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/05/10/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%89%EF%BC%89%EF%BC%9A%E4%BA%86%E8%A7%A3%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%EF%BC%88%E7%BB%93%E6%9E%84%E3%80%81%E5%8E%9F%E7%90%86%EF%BC%89/</loc>
-    
-    <lastmod>2023-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/04/Python%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</loc>
-    
-    <lastmod>2023-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/05/04/%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%EF%BC%9A%E5%81%8F%E5%AF%BC%E6%95%B0%E3%80%81%E6%96%B9%E5%90%91%E5%AF%BC%E6%95%B0%E5%8F%8A%E6%A2%AF%E5%BA%A6/</loc>
-    
-    <lastmod>2023-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/16/2022-2023%E8%AE%B0%E5%BD%95/</loc>
-    
-    <lastmod>2023-04-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/24/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%9C%A8conda%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85PyTorch%EF%BC%88CUDA%E7%89%88%EF%BC%89/</loc>
-    
-    <lastmod>2023-04-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/27/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9APyTorch%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
-    
-    <lastmod>2023-04-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://c200108.github.io/blog/2023/04/05/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A6%82%E5%BF%B5%E8%BE%A8%E6%9E%90%E2%80%94%E2%80%94Epoch%E3%80%81Batch%E3%80%81Iteration/</loc>
     
     <lastmod>2023-04-27</lastmod>
@@ -290,25 +308,7 @@
   </url>
   
   <url>
-    <loc>https://c200108.github.io/blog/2023/04/21/Picgo%E6%8F%92%E4%BB%B6-%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E8%87%B3%E5%A4%9A%E5%90%89%E4%BA%91/</loc>
-    
-    <lastmod>2023-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://c200108.github.io/blog/2023/04/03/%E7%BD%91%E9%A1%B5%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%BC%96%E7%A8%8BNoteBook%E5%90%88%E9%9B%86/</loc>
-    
-    <lastmod>2023-04-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://c200108.github.io/blog/2023/04/06/%E4%BD%BF%E7%94%A8python%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E9%93%BE%E5%AE%B6%E6%BD%8D%E5%9D%8A%E5%B8%82%E4%BA%8C%E6%89%8B%E6%88%BF%E9%A1%B9%E7%9B%AE/</loc>
     
     <lastmod>2023-04-19</lastmod>
     
