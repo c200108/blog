@@ -1,3 +1,4 @@
+https://c200108.github.io/blog/2024/03/07/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%8E%E5%AE%9E%E8%B7%B5(1)%E2%80%94%E2%80%94Hadoop/
 https://c200108.github.io/blog/shuoshuo/index.html
 https://c200108.github.io/blog/masonry/index.html
 https://c200108.github.io/blog/about/index.html
@@ -106,6 +107,8 @@ https://c200108.github.io/blog/tags/IDE/
 https://c200108.github.io/blog/tags/notebook/
 https://c200108.github.io/blog/tags/%E7%BC%96%E8%BE%91%E5%99%A8/
 https://c200108.github.io/blog/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/
+https://c200108.github.io/blog/tags/Hadoop/
+https://c200108.github.io/blog/tags/linux/
 https://c200108.github.io/blog/categories/%E7%94%9F%E6%B4%BB/
 https://c200108.github.io/blog/categories/%E6%95%99%E7%A8%8B/
 https://c200108.github.io/blog/categories/hugo/
@@ -121,3 +124,4 @@ https://c200108.github.io/blog/categories/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/
 https://c200108.github.io/blog/categories/DeepLearning/
 https://c200108.github.io/blog/categories/%E7%AB%9E%E8%B5%9B/
 https://c200108.github.io/blog/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/
+https://c200108.github.io/blog/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/
