@@ -5181,9 +5181,59 @@ var player = new DogePlayer({
 <li><em>Hadoop Ozone</em> – （于2020年引入） Hadoop的对象存储。</li>
 </ul>
 <h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><p>1、海量数据存储</p>
-<p>HDFS有高容错性的特点，并且设计用来部署在低廉的（low-cost）硬件上；而且它提供高吞吐量（High throughput）来访问数据，适合那些有着超大数据集（large data set）的应用程序,它由n台运行着DataNode的机器组成和1台（另外一个standby）运行NameNode进程一起构成。每个DataNode 管理一部分数据，然后NameNode负责管理整个HDFS 集群的信息（存储元数据)。</p>
 <p>2、资源管理，调度和分配</p>
-<p>Apache Hadoop YARN（Yet Another Resource Negotiator，另一种资源协调者）是一种新Hadoop 资源管理器，它是一个通用资源管理系统和调度平台，可为上层应用提供统 一的资源管理和调度，它的引入为集群在利用率、资源统一管理和数据共享等方面带来了巨 大好处。</p>
+<h3 id="HDFS框架"><a href="#HDFS框架" class="headerlink" title="HDFS框架"></a>HDFS框架</h3><p>HDFS是<strong>Master和Slave的主从结构</strong>。主要由<strong>NameNode、Secondary NameNode、DataNode</strong>构成。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/07/3143b07bfc3ea137cc147d2f9c1dfe79.webp" alt="img"></p>
+<p><strong>NameNode</strong>：负责管理整个<strong>文件系统的元数据</strong>，以及每一个路径（文件）所对应的数据块信息。</p>
+<p>如果NameNode挂掉了，文件就会无法重组，怎么办？有哪些容错机制？Hadoop可以配置成HA即高可用集群，集群中有两个NameNode节点，一台active主节点，另一台stan-dby备用节点，两者数据时刻保持一致。当主节点不可用时，备用节点马上自动切换，用户感知不到，避免了NameNode的单点问题。</p>
+<p><strong>Secondary NameNode</strong>：用来监控 HDFS 状态的辅助后台程序，每隔一段时间获取 HDFS 元数据的快照。最主要作用是辅助 NameNode 管理元数据信息。紧急情况下可辅助恢复NameNode。</p>
+<p><strong>DataNode</strong>：Slave节点，实际存储数据、执行数据块的读写并汇报存储信息给NameNode。</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/07/392e93cba461545a2a3c743fce0b6c94.png" alt="image-20240307234526813"></p>
+<h3 id="HDFS特性"><a href="#HDFS特性" class="headerlink" title="HDFS特性"></a>HDFS特性</h3><p>对于HDFS的作用可以用以下例子来解释：</p>
+<p>举例1：一名用户想要获取某个路径的数据，而数据存放在很多机器上，拥有Hadoop就不需要考虑数据在哪个机器上，HDFS会自动搞定</p>
+<p>举例2：如果一个100p的文件，希望过滤出含有Hadoop字符串的行。这种场景下，HDFS分布式存储，突破了服务器硬盘大小的限制，解决了单台机器无法存储大文件的问题，同时MapReduce分布式计算可以将大数据量的作业先分片计算，最后汇总输出。</p>
+<ul>
+<li><strong>1. master/slave 架构</strong>（主从架构）</li>
+</ul>
+<blockquote>
+<p>HDFS 采用 master/slave 架构。一般一个 HDFS 集群是有一个 Namenode 和一定数目的 Datanode 组成。Namenode 是 HDFS 集群主节点，Datanode 是 HDFS 集群从节点，两种角色各司其职，共同协调完成分布式的文件存储服务。</p>
+</blockquote>
+<ul>
+<li><strong>2. 分块存储</strong></li>
+</ul>
+<blockquote>
+<p>HDFS 中的文件在物理上是分块存储（block）的，块的大小可以通过配置参数来规定，默认大小在 hadoop2.x 版本中是 128M。</p>
+</blockquote>
+<ul>
+<li><strong>3. 名字空间（NameSpace）</strong></li>
+</ul>
+<blockquote>
+<p>HDFS 支持传统的层次型文件组织结构。用户或者应用程序可以创建目录，然后将文件保存在这些目录里。文件系统名字空间的层次结构和大多数现有的文件系统类似：用户可以创建、删除、移动或重命名文件。<br>Namenode 负责维护文件系统的名字空间，任何对文件系统名字空间或属性的修改都将被 Namenode 记录下来。<br>HDFS 会给客户端提供一个统一的抽象目录树，客户端通过路径来访问文件，形如：hdfs://namenode:port/dir-a/dir-b/dir-c/file.data。</p>
+</blockquote>
+<ul>
+<li><strong>4. NameNode 元数据管理</strong></li>
+</ul>
+<blockquote>
+<p>我们把目录结构及文件分块位置信息叫做元数据。NameNode 负责维护整个 HDFS 文件系统的目录树结构，以及每一个文件所对应的 block 块信息（block 的 id，及所在的 DataNode 服务器）。</p>
+</blockquote>
+<ul>
+<li><strong>5. DataNode 数据存储</strong></li>
+</ul>
+<blockquote>
+<p>文件的各个 block 的具体存储管理由 DataNode 节点承担。每一个 block 都可以在多个 DataNode 上。DataNode 需要定时向 NameNode 汇报自己持有的 block 信息。 存储多个副本（副本数量也可以通过参数设置 dfs.replication，默认是 3）</p>
+</blockquote>
+<ul>
+<li><strong>6. 副本机制</strong></li>
+</ul>
+<blockquote>
+<p>为了容错，文件的所有 block 都会有副本。每个文件的 block 大小和副本系数都是可配置的。应用程序可以指定某个文件的副本数目。副本系数可以在文件创建的时候指定，也可以在之后改变。</p>
+</blockquote>
+<ul>
+<li><strong>7. 一次写入，多次读出</strong></li>
+</ul>
+<blockquote>
+<p>HDFS 是设计成适应一次写入，多次读出的场景，且不支持文件的修改。<br>正因为如此，HDFS 适合用来做大数据分析的底层存储服务，并不适合用来做网盘等应用，因为修改不方便，延迟大，网络开销大，成本太高。</p>
+</blockquote>
 <h2 id="HDFS操作"><a href="#HDFS操作" class="headerlink" title="HDFS操作"></a>HDFS操作</h2><p>由于本笔记是基于Docker部署的Hadoop大数据集群，使用云桌面实验环境与大数据集群相联动，因而如何搭建Hadoop集群等等操作便不再演示🥲</p>
 <h3 id="完整命令概述"><a href="#完整命令概述" class="headerlink" title="完整命令概述"></a>完整命令概述</h3><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">hadoop fs [generic options]    [-appendToFile &lt;localsrc&gt; ... &lt;dst&gt;]</span><br><span class="line">    [-cat [-ignoreCrc] &lt;src&gt; ...]</span><br><span class="line">    [-checksum &lt;src&gt; ...]</span><br><span class="line">    [-chgrp [-R] GROUP PATH...]</span><br><span class="line">    [-chmod [-R] &lt;MODE[,MODE]... | OCTALMODE&gt; PATH...]</span><br><span class="line">    [-chown [-R] [OWNER][:[GROUP]] PATH...]</span><br><span class="line">    [-copyFromLocal [-f] [-p] [-l] &lt;localsrc&gt; ... &lt;dst&gt;]</span><br><span class="line">    [-copyToLocal [-p] [-ignoreCrc] [-crc] &lt;src&gt; ... &lt;localdst&gt;]</span><br><span class="line">    [-count [-q] [-h] &lt;path&gt; ...]</span><br><span class="line">    [-cp [-f] [-p | -p[topax]] &lt;src&gt; ... &lt;dst&gt;]</span><br><span class="line">    [-createSnapshot &lt;snapshotDir&gt; [&lt;snapshotName&gt;]]</span><br><span class="line">    [-deleteSnapshot &lt;snapshotDir&gt; &lt;snapshotName&gt;]</span><br><span class="line">    [-df [-h] [&lt;path&gt; ...]]</span><br><span class="line">    [-du [-s] [-h] &lt;path&gt; ...]</span><br><span class="line">    [-expunge]</span><br><span class="line">    [-find &lt;path&gt; ... &lt;expression&gt; ...]</span><br><span class="line">    [-get [-p] [-ignoreCrc] [-crc] &lt;src&gt; ... &lt;localdst&gt;]</span><br><span class="line">    [-getfacl [-R] &lt;path&gt;]</span><br><span class="line">    [-getfattr [-R] {-n name | -d} [-e en] &lt;path&gt;]</span><br><span class="line">    [-getmerge [-nl] &lt;src&gt; &lt;localdst&gt;]</span><br><span class="line">    [-help [cmd ...]]</span><br><span class="line">    [-ls [-d] [-h] [-R] [&lt;path&gt; ...]]</span><br><span class="line">    [-mkdir [-p] &lt;path&gt; ...]</span><br><span class="line">    [-moveFromLocal &lt;localsrc&gt; ... &lt;dst&gt;]</span><br><span class="line">    [-moveToLocal &lt;src&gt; &lt;localdst&gt;]</span><br><span class="line">    [-mv &lt;src&gt; ... &lt;dst&gt;]</span><br><span class="line">    [-put [-f] [-p] [-l] &lt;localsrc&gt; ... &lt;dst&gt;]</span><br><span class="line">    [-renameSnapshot &lt;snapshotDir&gt; &lt;oldName&gt; &lt;newName&gt;]</span><br><span class="line">    [-rm [-f] [-r|-R] [-skipTrash] &lt;src&gt; ...]</span><br><span class="line">    [-rmdir [--ignore-fail-on-non-empty] &lt;dir&gt; ...]</span><br><span class="line">    [-setfacl [-R] [{-b|-k} {-m|-x &lt;acl_spec&gt;} &lt;path&gt;]|[--set &lt;acl_spec&gt; &lt;path&gt;]]</span><br><span class="line">    [-setfattr {-n name [-v value] | -x name} &lt;path&gt;]</span><br><span class="line">    [-setrep [-R] [-w] &lt;rep&gt; &lt;path&gt; ...]</span><br><span class="line">    [-stat [format] &lt;path&gt; ...]</span><br><span class="line">    [-tail [-f] &lt;file&gt;]</span><br><span class="line">    [-test -[defsz] &lt;path&gt;]</span><br><span class="line">    [-text [-ignoreCrc] &lt;src&gt; ...]</span><br><span class="line">    [-touchz &lt;path&gt; ...]</span><br><span class="line">    [-truncate [-w] &lt;length&gt; &lt;path&gt; ...]</span><br><span class="line">    [-usage [cmd ...]]</span><br></pre></td></tr></table></figure></div>
 
