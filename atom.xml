@@ -47,8 +47,16 @@
     <link href="https://c200108.github.io/blog/2024/03/03/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%884%EF%BC%89%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/"/>
     <id>https://c200108.github.io/blog/2024/03/03/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%EF%BC%884%EF%BC%89%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/</id>
     <published>2024-03-03T02:39:35.000Z</published>
-    <updated>2024-03-03T13:34:06.490Z</updated>
+    <updated>2024-03-10T13:40:08.736Z</updated>
     
+    <content type="html"><![CDATA[<h3 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h3><p>时间复杂度一般关注的是最坏时间复杂度，用O(f(n))表示，</p><p>而时间复杂度中如果同时存在多项，仅考虑最高项</p><p>例如，如果基本操作执行次数是3n^2 + 2n + 1，那么时间复杂度就是O(n^2)</p><p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/10/75ecb950f8d018bb01756e09e379f5f6.png" alt="image-20240310182620527"></p><h3 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h3><h3 id="模拟"><a href="#模拟" class="headerlink" title="模拟"></a>模拟</h3><h3 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h3><h3 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h3><h3 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h3><h3 id="差分"><a href="#差分" class="headerlink" title="差分"></a>差分</h3><h3 id="离散化"><a href="#离散化" class="headerlink" title="离散化"></a>离散化</h3><h3 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h3><h3 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h3><h3 id="二分"><a href="#二分" class="headerlink" title="二分"></a>二分</h3><h3 id="倍增"><a href="#倍增" class="headerlink" title="倍增"></a>倍增</h3><h3 id="构造"><a href="#构造" class="headerlink" title="构造"></a>构造</h3><h3 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;时间复杂度&quot;&gt;&lt;a href=&quot;#时间复杂度&quot; class=&quot;headerlink&quot; title=&quot;时间复杂度&quot;&gt;&lt;/a&gt;时间复杂度&lt;/h3&gt;&lt;p&gt;时间复杂度一般关注的是最坏时间复杂度，用O(f(n))表示，&lt;/p&gt;
+&lt;p&gt;而时间复杂度中如果同时存在多项，仅考虑最</summary>
+      
     
     
     
