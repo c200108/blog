@@ -4486,7 +4486,38 @@ var player = new DogePlayer({
 <p>而时间复杂度中如果同时存在多项，仅考虑最高项</p>
 <p>例如，如果基本操作执行次数是3n^2 + 2n + 1，那么时间复杂度就是O(n^2)</p>
 <p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/10/75ecb950f8d018bb01756e09e379f5f6.png" alt="image-20240310182620527"></p>
-<h3 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h3><h3 id="模拟"><a href="#模拟" class="headerlink" title="模拟"></a>模拟</h3><h3 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h3><h3 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h3><h3 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h3><h3 id="差分"><a href="#差分" class="headerlink" title="差分"></a>差分</h3><h3 id="离散化"><a href="#离散化" class="headerlink" title="离散化"></a>离散化</h3><h3 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h3><h3 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h3><h3 id="二分"><a href="#二分" class="headerlink" title="二分"></a>二分</h3><h3 id="倍增"><a href="#倍增" class="headerlink" title="倍增"></a>倍增</h3><h3 id="构造"><a href="#构造" class="headerlink" title="构造"></a>构造</h3><h3 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h3>]]></content>
+<h3 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h3><h3 id="模拟"><a href="#模拟" class="headerlink" title="模拟"></a>模拟</h3><h3 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h3><h3 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h3><h3 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h3><h3 id="差分"><a href="#差分" class="headerlink" title="差分"></a>差分</h3><h3 id="离散化"><a href="#离散化" class="headerlink" title="离散化"></a>离散化</h3><h3 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h3><h3 id="双指针"><a href="#双指针" class="headerlink" title="双指针"></a>双指针</h3><h3 id="二分"><a href="#二分" class="headerlink" title="二分"></a>二分</h3><h4 id="二分法"><a href="#二分法" class="headerlink" title="二分法"></a>二分法</h4><p><strong>定义</strong>：每次将搜索范围缩小一半，可以在O(logn)时间复杂度内找到正确答案。</p>
+<p>使用二分法的<strong>前提条件</strong>：单调性</p>
+<p><strong>思路</strong>：通过利用单调性不断缩小二分查找的区间，来逼近目标值。</p>
+<p>二分法<strong>步骤</strong>：</p>
+<ol>
+<li>候选区间<code>[left,right]</code></li>
+<li>不断循环，直至区间满足特定条件<ul>
+<li>计算中点<code>mid = (left+right)/2</code></li>
+<li>判断中点是否合法，根据中点的计算结果调整<code>[left,right]</code> ，例如，如果mid比目标值大，则将区间调整为<code>[left,mid]</code>；而如果mid比目标值小，则调整区间为<code>[mid,right]</code>；如果mid与目标值相等，则输出<code>mid</code></li>
+</ul>
+</li>
+</ol>
+<h4 id="浮点二分"><a href="#浮点二分" class="headerlink" title="浮点二分"></a>浮点二分</h4><p>具体二分数学运算过程如下图：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/23/73fe0ef92f58827a6a170db82247c386.png" alt="image-20240323180308432"></p>
+<p>代码实现：</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line">left,right = <span class="number">1</span>,<span class="number">2</span></span><br><span class="line">eps = <span class="number">1e-4</span></span><br><span class="line"><span class="comment">#当区间长度大于eps，说明前3位小数不同</span></span><br><span class="line"><span class="comment">#否则，前三位小数已确定</span></span><br><span class="line"><span class="keyword">while</span> right - left &gt;= eps:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"[{},{}]"</span>.<span class="built_in">format</span>(left, right))</span><br><span class="line">    <span class="comment">#求中点</span></span><br><span class="line">    mid = (left + right) / <span class="number">2</span></span><br><span class="line">    <span class="comment">#分类讨论:当mid^2&gt;2，则下一次为[left,mid]</span></span><br><span class="line">    <span class="keyword">if</span> mid * mid &gt; <span class="number">2</span>:</span><br><span class="line">        right = mid</span><br><span class="line">    <span class="comment">#此时mid^2&lt;2，下一次为[mid,right]</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">    	left = mid</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="二分答案"><a href="#二分答案" class="headerlink" title="二分答案"></a>二分答案</h4><p>题目所求答案(一般为整数) 具有单调性质，采用猜答案+二分</p>
+<ul>
+<li>确定初始范围[left,right]</li>
+<li>当left &lt; right时:<ul>
+<li>mid = (left + right)//2</li>
+<li>check(mid):断mid是否合法:(定义check函数，什么时候是合法，根据题目的单调性来确定)</li>
+<li>如果合法:更新ans=mid</li>
+<li>根据合法调整左右区间，调整策略为二选一: left =mid + 1</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#二分答案</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">check</span>(<span class="params">x</span>):</span><br><span class="line">    <span class="comment">#判断x是否合法，合法返回True，否则返回False</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">left, right, ans = 初始值</span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> left &lt;= right:</span><br><span class="line">    mid = (left + right) // <span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> check(mid):</span><br><span class="line">        ans = mid</span><br><span class="line">        left = mid+<span class="number">1</span> <span class="comment">#二选一</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        right =mid - <span class="number">1</span> <span class="comment">#二选一</span></span><br><span class="line"><span class="built_in">print</span>(ans)</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="倍增"><a href="#倍增" class="headerlink" title="倍增"></a>倍增</h3><p>倍增算法是一种优化算法，通常应用于某些需要高效计算指数幂的场景。它基于分治的思想，通过反复求平方来实现快速计算指数幂的目的。在实际应用中，倍增算法经常用于解决最近公共祖先问题、二分查找等。</p>
+<h3 id="构造"><a href="#构造" class="headerlink" title="构造"></a>构造</h3><h3 id="位运算"><a href="#位运算" class="headerlink" title="位运算"></a>位运算</h3>]]></content>
       <categories>
         <category>竞赛</category>
       </categories>
@@ -5392,7 +5423,7 @@ var player = new DogePlayer({
 <p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/22/005c1ebcc696afb0ef50523cbe20ef0a.png" alt="image-20240322180436784"></p>
 <p>这样便得到了频数分析结果</p>
 <p><img lazyload="" src="/images/loading.svg" data-src="https://dogecloud-storage.blog.ru6.top/2024/03/22/ecbdff5aeff637a515ee9726168e4fb7.png" alt="image-20240322180922176"></p>
-<h4 id="探索性因子分析"><a href="#探索性因子分析" class="headerlink" title="探索性因子分析"></a>探索性因子分析</h4><blockquote>
+<h4 id="信度分析"><a href="#信度分析" class="headerlink" title="信度分析"></a>信度分析</h4><h4 id="效度分析"><a href="#效度分析" class="headerlink" title="效度分析"></a>效度分析</h4><blockquote>
 <p>参考文章：</p>
 <p><a class="link" href="https://mp.weixin.qq.com/s/3WOiiS7Lc54kodCnyeYijg">https://mp.weixin.qq.com/s/3WOiiS7Lc54kodCnyeYijg <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p><a class="link" href="https://mp.weixin.qq.com/s/ZnzGsRAp8UPv8mgYr271yg">https://mp.weixin.qq.com/s/ZnzGsRAp8UPv8mgYr271yg <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
