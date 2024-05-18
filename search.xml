@@ -5751,4 +5751,27 @@ var player = new DogePlayer({
         <tag>linux</tag>
       </tags>
   </entry>
+  <entry>
+    <title>IQA笔记（1）</title>
+    <url>/blog/2024/05/15/IQA%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<p>​	IQA（image quality assess） 图像质量评价</p>
+<h2 id="综述"><a href="#综述" class="headerlink" title="综述"></a>综述</h2><p>质量评估有IQA（图像质量评价）和VQA（视频质量评价）两个方向。</p>
+<p>IQA有主观评价和客观评价两种方法，主观评价是根据人的主观感受对图像质量评分；客观评价则利用数学模型对图像质量给出量化评分。</p>
+<p>IQA算法目的：自动评估与人的主观质量判断相一致的客观图像质量</p>
+<h3 id="参考度"><a href="#参考度" class="headerlink" title="参考度"></a>参考度</h3><p>IQA算法根据原始参考图像提供多少分为全参考（FR-IQA）、半参考（RR-IQA）和无参考（NR-IQA），</p>
+<ul>
+<li>FR-IQA在评价时给出了原始完整参考图像与失真图像，核心是对比两幅图像的信息量或特征相似度，难度较小。</li>
+<li>NR-IQA在评价时只有失真图像，核心需要对失真图像给出客观评估，难度很大。</li>
+<li>RR-IQA只有原始图像的部分信息或从参考图像中提取的部分特征。</li>
+</ul>
+<p>NR-IQA可再细分为研究特定类型的图像质量和估计非特定类型的图像质量（通用失真评估）</p>
+]]></content>
+      <categories>
+        <category>IQA</category>
+      </categories>
+      <tags>
+        <tag>概念</tag>
+        <tag>图像质量</tag>
+      </tags>
+  </entry>
 </search>
